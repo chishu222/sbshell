@@ -62,7 +62,7 @@
     { "tag": "📲 Telegram", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "TW 台湾自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "KR 韩国自动", "SG 新加坡自动", "OT 其他自动", "🐸 手动切换"] },
     { "tag": "🍏 Apple", "type": "selector", "outbounds": ["🎯 全球直连", "TW 台湾自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "KR 韩国自动", "SG 新加波自动", "OT 其他自动"] },
     { "tag": "🐠 漏网之鱼", "type": "selector", "outbounds": ["🚀 节点选择", "TW 台湾自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "KR 韩国自动", "SG 新加波自动", "OT 其他自动"] },
-    { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords" :["重置|到期|剩余|过期|套餐|有效"] }],
+    { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"],
     { "tag": "TW 台湾自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["TW|台湾"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
     { "tag": "🇯🇵 日本自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇯🇵|JP|jp|日本|日|Japan"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
     { "tag": "🇺🇲 美国自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
